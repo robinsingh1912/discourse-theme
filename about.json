@@ -1,7 +1,7 @@
 {
-  "name": "Theme name",
-  "about_url": "Theme about url",
-  "license_url": "Theme license url",
+  "name": "Sephora Theme",
+  "about_url": "https://some.url.com",
+  "license_url": "https://github.com/robinsingh1912/discourse-theme/blob/main/LICENSE",
   "assets": {
     "asset-variable": "assets/background.svg"
   },
