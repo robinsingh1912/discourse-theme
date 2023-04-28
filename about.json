@@ -1,0 +1,22 @@
+{
+  "name": "Theme name",
+  "about_url": "Theme about url",
+  "license_url": "Theme license url",
+  "assets": {
+    "asset-variable": "assets/background.svg"
+  },
+  "color_schemes": {
+    "sephora": {
+      "primary": "000000",
+      "secondary": "000000",
+      "tertiary": "000000",
+      "quaternary": "000000",
+      "header_background": "000000",
+      "header_primary": "000000",
+      "highlight": "000000",
+      "danger": "000000",
+      "success": "000000",
+      "love": "000000"
+    }
+  }
+}
