@@ -4,12 +4,25 @@
   width: 100%;
   background: red;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1em;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.hello-world {
-  font-size: 8em;
-  color: white;
+.banner-title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -0.015em;
+  color: #000000;
+}
+
+.banner-subtitle {
+  font-family: 'Futura Bk BT';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
 }
