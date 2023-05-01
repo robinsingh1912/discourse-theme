@@ -1,8 +1,7 @@
 //  Whatever you add is compiled automatically on save and added as a separate .css stylesheet to the <head> section if the theme is active
-.hello-world-banner {
+.banner {
   height: 300px;
   width: 100%;
-  background: red;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -15,7 +14,6 @@
   font-size: 80px;
   line-height: 80px;
   letter-spacing: -0.015em;
-  color: #000000;
 }
 
 .banner-subtitle {
@@ -24,5 +22,5 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  max-width: 420px;
 }
