@@ -1,6 +1,13 @@
 //  Whatever you add is compiled automatically on save and added as a separate .css stylesheet to the <head> section if the theme is active
+
+// NAVIGATION
+button.sign-up-button {
+  display: none;
+}
+
+//AFTER_HEADER
 .banner {
-  height: 300px;
+  margin: 40px 0;
   width: 100%;
   display: flex;
   flex-direction: column;
