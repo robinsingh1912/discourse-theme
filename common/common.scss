@@ -1,8 +1,16 @@
 //  Whatever you add is compiled automatically on save and added as a separate .css stylesheet to the <head> section if the theme is active
 
 // NAVIGATION
-button.sign-up-button {
-  display: none;
+.header-buttons {
+  button {
+    background-color: black;
+    svg {
+      display: none;
+    }
+  }
+  .sign-up-button {
+    display: none;
+  }
 }
 
 //AFTER_HEADER
