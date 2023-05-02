@@ -15,18 +15,12 @@
 
 //AFTER_HEADER
 
-.docked.navigation-topics {
-  .banner {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin: 40px 0;
-    width: 100%;
-  }
-}
-
 .banner {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 40px 0;
+  width: 100%;
 }
 
 .banner-title {
