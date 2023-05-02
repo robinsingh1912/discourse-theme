@@ -41,10 +41,15 @@
 }
 
 // FOOTER
-.custom-sephora-footer {
+.custom-sephora-footer-wrapper {
   background: #000000;
   padding: 40px 20px;
   color: #ffffff;
+}
+
+.custom-sephora-footer {
+  max-width: 1110px;
+  margin: 0 auto;
   .custom-sephora-footer-top {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
