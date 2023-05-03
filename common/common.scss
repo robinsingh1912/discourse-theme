@@ -1,5 +1,15 @@
 //  Whatever you add is compiled automatically on save and added as a separate .css stylesheet to the <head> section if the theme is active
 
+// FONTS
+@font-face {
+  font-family: Playfair;
+  src: url($playfair);
+}
+
+body {
+  font-family: Playfair;
+}
+
 // NAVIGATION
 .header-buttons {
   button {
