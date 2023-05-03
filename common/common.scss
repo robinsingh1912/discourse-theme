@@ -1,11 +1,5 @@
 //  Whatever you add is compiled automatically on save and added as a separate .css stylesheet to the <head> section if the theme is active
 
-// FONTS
-@font-face {
-  font-family: Playfair;
-  src: url($playfair);
-}
-
 // NAVIGATION
 .header-buttons {
   button {
@@ -50,24 +44,32 @@
   background: #000000;
   padding: 40px 20px;
   color: #ffffff;
+  margin-top: 40px;
 }
 
 .custom-sephora-footer {
   max-width: 1110px;
   margin: 0 auto;
   .custom-sephora-footer-top {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    h6 {
+      margin: 4px;
+      font-size: 24px;
+      font-weight: bold;
+    }
     ul {
       list-style: none;
       display: flex;
       flex-direction: column;
-      padding-left: 0;
+      padding-left: 4px;
+      margin: 0;
     }
     .custom-footer-social-links {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      gap: 8px;
     }
   }
 }
@@ -75,4 +77,16 @@
 .custom-sephora-footer-bottom {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+}
+
+.omniture-link {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-decoration: none;
 }

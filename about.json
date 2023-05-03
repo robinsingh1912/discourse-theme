@@ -2,9 +2,7 @@
   "name": "Sephora Theme",
   "about_url": "https://some.url.com",
   "license_url": "https://github.com/robinsingh1912/discourse-theme/blob/main/LICENSE",
-  "assets": {
-    "playfair": "assets/fonts/PlayfairDisplay-VariableFont_wght.ttf"
-  },
+  "assets": {},
   "color_schemes": {
     "sephora": {
       "primary": "000000",
